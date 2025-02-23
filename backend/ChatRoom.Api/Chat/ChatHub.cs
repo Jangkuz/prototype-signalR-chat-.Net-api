@@ -19,4 +19,10 @@ public class ChatHub : Hub
             await Clients.Group(roomId.ToString()).SendAsync("ReceiveMessage", messageDTO);
             Console.WriteLine($"MessageDTO: {messageDTO.UserId}, {messageDTO.Content}, {messageDTO.RoomId}");
         }
+    public async Task SendMessage2(MessageDTO messageDTO)
+        {
+            Console.WriteLine($"=======Sending message to room: {messageDTO.RoomId}, message: {messageDTO.Content}, userId: {messageDTO.UserId}============");
+            await Clients.Group(messageDTO.RoomId.ToString()).SendAsync("ReceiveMessage", messageDTO);
+            Console.WriteLine($"MessageDTO: {messageDTO.UserId}, {messageDTO.Content}, {messageDTO.RoomId}");
+        }
 }

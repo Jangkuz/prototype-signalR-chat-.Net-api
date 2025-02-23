@@ -171,3 +171,4 @@ D:\fptu\2025_1_Spring\PRN222\Demos\Demo_API\API_SignalR\backend\ChatRoom.Api\bin
 D:\fptu\2025_1_Spring\PRN222\Demos\Demo_API\API_SignalR\backend\ChatRoom.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\fptu\2025_1_Spring\PRN222\Demos\Demo_API\API_SignalR\backend\ChatRoom.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\fptu\2025_1_Spring\PRN222\Demos\Demo_API\API_SignalR\backend\ChatRoom.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\fptu\2025_1_Spring\PRN222\Demos\Demo_API\API_SignalR\backend\ChatRoom.Api\obj\Debug\net9.0\ChatRoom.Api.sourcelink.json
