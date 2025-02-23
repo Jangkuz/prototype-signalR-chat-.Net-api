@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/KRTOBV7CFtjzrc+HFbNpiPOrCweEdot2KtctEroRhw=",
+  "Source": "ChatRoom.Api",
+  "BasePath": "_content/ChatRoom.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
