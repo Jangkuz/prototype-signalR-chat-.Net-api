@@ -11,7 +11,7 @@ public static class MessageMapper
         {
             RoomId = message.ChatRoomId,
             Content = message.Content,
-            UserId = message.UserId,
+            SenderId = message.UserId,
         };
     }
 
@@ -21,7 +21,7 @@ public static class MessageMapper
         {
             ChatRoomId = messageDTO.RoomId,
             Content = messageDTO.Content,
-            UserId = messageDTO.UserId,
+            UserId = messageDTO.SenderId,
         };
     }
 }

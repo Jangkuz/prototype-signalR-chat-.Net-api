@@ -1,0 +1,4 @@
+*.vsidx
+*.vsidx
+/backend/ChatRoom.Api/bin
+/backend/ChatRoom.Api/bin

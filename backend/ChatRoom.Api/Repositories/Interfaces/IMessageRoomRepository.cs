@@ -9,4 +9,5 @@ public interface IMessageRoomRepository
     Task<MessageRoom> CreateAsync(MessageRoom chatRoom);
     // Task AddUserToRoomAsync(int roomId, int userId);
 
+    Task<MessageRoom?> GetByAccountIds(int acc1Id, int acc2Id);
 }

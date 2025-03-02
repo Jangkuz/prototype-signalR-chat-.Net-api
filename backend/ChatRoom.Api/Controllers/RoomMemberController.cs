@@ -22,11 +22,12 @@ public class RoomMemberController : ControllerBase
     public async Task<ActionResult<MessageRoom>> GetRoomByUserId(int userId)
     {
         var room = await _roomMemberRepository.GetRoomByUserId(userId);
-        return room == null ? NotFound() : Ok(room);
+        //return room == null ? NotFound() : Ok(room);
+        return Ok(room);
     }
 
     [HttpPost]
-    public async Task<ActionResult<RoomMember>> InsertRoomMember(int RoomId, int UserId)
+    public async Task<ActionResult<RoomMember>> InsertRoomMember(RoomMemberDTO roomMemberDTO)
     {
         // var room = await _roomMemberRepository.GetRoomByUserId(UserId);
         // if (room == null)
@@ -34,8 +35,9 @@ public class RoomMemberController : ControllerBase
         //     var newRoom = await _messageRoomRepository.CreateAsync(new MessageRoom { Name = $"DM:{UserId}_{RoomId}" });
         // }
 
-        var roomMember = new RoomMember { RoomId = RoomId, UserId = UserId };
+        var roomMember = new RoomMember { RoomId = roomMemberDTO.RoomId, UserId = roomMemberDTO.AccountId };
         var member = await _roomMemberRepository.InsertRoomMember(roomMember);
-        return member == null ? NotFound() : Ok(member);
+        //return member == null ? NotFound() : Ok(member);
+        return Ok(member);
     }
 }

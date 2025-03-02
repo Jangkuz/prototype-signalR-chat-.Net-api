@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\models\\roommemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\models\\roommemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\controllers\\roommembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\controllers\\roommembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\controllers\\chatroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\controllers\\chatroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\models\\createmessageroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\models\\createmessageroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\models\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\models\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\models\\roommember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\models\\roommember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\models\\messageroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\models\\messageroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\repositories\\implements\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\repositories\\implements\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\chat\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\chat\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\repositories\\implements\\messageroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\repositories\\implements\\messageroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\repositories\\interfaces\\imessageroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\repositories\\interfaces\\imessageroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\fptu\\2025_1_spring\\prn222\\demos\\demo_api\\api_signalr\\backend\\chatroom.api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2227CF-5F7D-4A81-B7A2-C352F878C697}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,40 +66,196 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Controllers\\MessageController.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:28:26.169Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoomMemberDTO.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\RoomMemberDTO.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Models\\RoomMemberDTO.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\RoomMemberDTO.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Models\\RoomMemberDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:20:07.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateMessageRoomDTO.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\CreateMessageRoomDTO.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Models\\CreateMessageRoomDTO.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\CreateMessageRoomDTO.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Models\\CreateMessageRoomDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:18:24.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessageRoom.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\MessageRoom.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Models\\MessageRoom.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\MessageRoom.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Models\\MessageRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T08:51:40.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatRoomsController.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Controllers\\ChatRoomsController.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Controllers\\ChatRoomsController.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Controllers\\ChatRoomsController.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Controllers\\ChatRoomsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T08:31:28.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomMemberController.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Controllers\\RoomMemberController.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Controllers\\RoomMemberController.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Controllers\\RoomMemberController.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Controllers\\RoomMemberController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T07:22:58.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageDTO.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\MessageDTO.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Models\\MessageDTO.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\MessageDTO.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Models\\MessageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:10:48.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Chat\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Chat\\ChatHub.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Chat\\ChatHub.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Chat\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:38:25.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Program.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Program.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T15:38:59.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MessageRoomRepository.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Repositories\\Implements\\MessageRoomRepository.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Repositories\\Implements\\MessageRoomRepository.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Repositories\\Implements\\MessageRoomRepository.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Repositories\\Implements\\MessageRoomRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T08:57:11.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RoomMember.cs",
               "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\RoomMember.cs",
               "RelativeDocumentMoniker": "ChatRoom.Api\\Models\\RoomMember.cs",
-              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\RoomMember.cs*",
-              "RelativeToolTip": "ChatRoom.Api\\Models\\RoomMember.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\RoomMember.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Models\\RoomMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T17:18:07.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Program.cs",
-              "RelativeDocumentMoniker": "ChatRoom.Api\\Program.cs",
-              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Program.cs",
-              "RelativeToolTip": "ChatRoom.Api\\Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Repositories\\Implements\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Repositories\\Implements\\MessageRepository.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Repositories\\Implements\\MessageRepository.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Repositories\\Implements\\MessageRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T15:38:59.362Z",
+              "WhenOpened": "2025-03-02T05:34:27.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMessageRoomRepository.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Repositories\\Interfaces\\IMessageRoomRepository.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Repositories\\Interfaces\\IMessageRoomRepository.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Repositories\\Interfaces\\IMessageRoomRepository.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Repositories\\Interfaces\\IMessageRoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T08:58:16.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Models\\Message.cs",
+              "ToolTip": "D:\\fptu\\2025_1_Spring\\PRN222\\Demos\\Demo_API\\API_SignalR\\backend\\ChatRoom.Api\\Models\\Message.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:10:49.329Z",
               "EditorCaption": ""
             }
           ]

@@ -11,13 +11,13 @@ interface User {
 interface UserSelectorProps {
   onSelectCurrentUser: (userId: string) => void;
   onSelectChatUser: (userId: string) => void;
-  currentUserId: string;
+  currentUserIdTemp: string;
 }
 
 const UserSelector: React.FC<UserSelectorProps> = ({
   onSelectCurrentUser,
   onSelectChatUser,
-  currentUserId,
+  currentUserIdTemp: currentUserId,
 }) => {
   const [users, setUsers] = useState<User[]>([]);
   const [newUsername, setNewUsername] = useState("");
@@ -49,8 +49,11 @@ const UserSelector: React.FC<UserSelectorProps> = ({
       <div>
         <h3>Select Your User</h3>
         <select
-          value={currentUserId}
-          onChange={(e) => onSelectCurrentUser(e.target.value)}
+          // value={currentUserId}
+          onChange={(e) => {
+            onSelectCurrentUser(e.target.value);
+            currentUserId = e.target.value;
+          }}
         >
           <option value="">Select User</option>
           {users.map((user) => (
@@ -64,10 +67,14 @@ const UserSelector: React.FC<UserSelectorProps> = ({
       {currentUserId && (
         <div>
           <h3>Select User to Chat With</h3>
-          <select onChange={(e) => onSelectChatUser(e.target.value)}>
+          <select
+            onChange={(e) => {
+              onSelectChatUser(e.target.value);
+            }}
+          >
             <option value="">Select User</option>
             {users
-              .filter((user) => user.id !== currentUserId)
+              .filter((user) => String(user.id) !== String(currentUserId))
               .map((user) => (
                 <option key={user.id} value={user.id}>
                   {user.username}

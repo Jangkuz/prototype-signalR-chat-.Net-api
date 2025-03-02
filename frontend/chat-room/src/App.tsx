@@ -7,12 +7,21 @@ function App() {
   const [currentUserId, setCurrentUserId] = useState<string>("");
   const [selectedUserId, setSelectedUserId] = useState<string>("");
 
+  const handleSelectCurrentUser = (userId: string) => {
+    console.log("Setting current user to:", userId);
+    setCurrentUserId(userId);
+  };
+
+  const handleSelectSelectedUser = (userId: string) => {
+    console.log("Setting selected user to:", userId);
+    setSelectedUserId(userId);
+  };
   return (
     <div className="App">
       <UserSelector
-        onSelectCurrentUser={(userId) => setCurrentUserId(userId)}
-        onSelectChatUser={(userId) => setSelectedUserId(userId)}
-        currentUserId={currentUserId}
+        onSelectCurrentUser={handleSelectCurrentUser}
+        onSelectChatUser={handleSelectSelectedUser}
+        currentUserIdTemp={currentUserId}
       />
 
       {currentUserId && selectedUserId && (

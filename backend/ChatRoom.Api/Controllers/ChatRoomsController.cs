@@ -24,13 +24,20 @@ public class ChatRoomsController : ControllerBase
     public async Task<ActionResult<MessageRoom>> GetRoom(int id)
     {
         var room = await _roomRepository.GetByIdAsync(id);
-        return room == null ? NotFound() : Ok(room);
+        return Ok(room);
     }
 
-    [HttpPost]
-    public async Task<ActionResult<MessageRoom>> CreateRoom(int RoomId, int UserId)
+    [HttpGet("{acc1Id}/{acc2Id}")]
+    public async Task<ActionResult<MessageRoom>> GetRoomByAccountIds(int acc1Id, int acc2Id)
     {
-        var created = await _roomRepository.CreateAsync(new MessageRoom { Name = $"DM:{UserId}_{RoomId}" });
+        var room = await _roomRepository.GetByAccountIds(acc1Id, acc2Id);
+        return Ok(room);
+    }
+    [HttpPost]
+    public async Task<ActionResult<MessageRoom>> CreateRoom(CreateMessageRoomDTO roomDTO)
+    {
+        //set room name for easy data checking
+        var created = await _roomRepository.CreateAsync(new MessageRoom { Name = $"DM:{roomDTO.Acc1Id}_{roomDTO.Acc2Id}" });
         return CreatedAtAction(nameof(GetRoom), new { id = created.Id }, created);
     }
 

@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { ROUTES } from "../config/routes";
 import { ChatService } from "../services/chatService";
-
-const chatService = new ChatService();
+import { messageDTO } from "../models/messageDTO";
+import { create } from "domain";
 
 interface DirectChatProps {
   currentUserId: string;
@@ -14,51 +14,72 @@ const DirectChat: React.FC<DirectChatProps> = ({
   currentUserId,
   selectedUserId,
 }) => {
+  const chatService = new ChatService();
   const [messages, setMessages] = useState<any[]>([]);
   const [message, setMessage] = useState("");
-  const [roomId, setRoomId] = useState<number>(0);
+  const [currentRoomId, setRoomId] = useState<number>(0);
   const [isConnected, setIsConnected] = useState(false);
 
+  // useEffect(() => {
+  //   return () => {
+  //     chatService
+  //       .stop()
+  //       .then(() => console.log("Connection stopped for partner change"));
+  //   };
+  // }, [currentRoomId]);
+
   useEffect(() => {
+    // let isMounted = true;
+
     const initDirectChat = async () => {
+      console.log("initDirectChat");
       try {
-        if (!isConnected) {
-          await chatService.start();
-          setIsConnected(true);
-          chatService.onReceiveMessage((message) => {
-            setMessages((prev) => [...prev, message]);
-          });
-        }
+        await chatService.start();
+
+        // if (!isMounted) return;
+
+        setIsConnected(true);
+
+        // Register the messge handler ONCE
+        chatService.onReceiveMessage((message) => {
+          // if (isMounted) {
+          setMessages((prev) => [...prev, message]);
+          // }
+        });
+
+        //Get or create chat room
         // Try to get existing room
         let response = await axios.get(
-          ROUTES.API.CHAT.ROOM_MEMBERS.GET_BY_USER_ID(Number(currentUserId))
+          ROUTES.API.CHAT.ROOMS.GET_BY_ACCOUNT_IDS(
+            Number(currentUserId),
+            Number(selectedUserId)
+          )
         );
 
         // If no room exists, create one and add users
         if (!response.data) {
-          response = await axios.post(
-            ROUTES.API.CHAT.ROOMS.CREATE(
-              Number(currentUserId),
-              Number(selectedUserId)
-            )
-          );
+          const createRoom = {
+            Acc1Id: Number(currentUserId),
+            Acc2Id: Number(selectedUserId),
+          };
+          response = await axios.post(ROUTES.API.CHAT.ROOMS.CREATE, createRoom);
 
+          console.log(response);
           // Add both users to room
-          await axios.post(
-            ROUTES.API.CHAT.ROOM_MEMBERS.ADD_USER(
-              response.data.id,
-              Number(currentUserId)
-            )
-          );
-          await axios.post(
-            ROUTES.API.CHAT.ROOM_MEMBERS.ADD_USER(
-              response.data.id,
-              Number(selectedUserId)
-            )
-          );
+          await axios.post(ROUTES.API.CHAT.ROOM_MEMBERS.ADD_USER, {
+            RoomId: response.data.id,
+            AccountId: currentUserId,
+          });
+
+          await axios.post(ROUTES.API.CHAT.ROOM_MEMBERS.ADD_USER, {
+            RoomId: response.data.id,
+            AccountId: selectedUserId,
+          });
         }
 
+        // if (!isMounted) return;
         const room = response.data;
+        console.log("Current room id", room.id);
         setRoomId(room.id);
 
         // Join room via SignalR
@@ -68,30 +89,42 @@ const DirectChat: React.FC<DirectChatProps> = ({
         const messagesResponse = await axios.get(
           ROUTES.API.CHAT.MESSAGES.GET_BY_ROOM_ID(room.id)
         );
+        console.log(messagesResponse);
+        // if (!isMounted) return;
+
         setMessages(messagesResponse.data);
       } catch (error) {
-        console.error("Failed to initialize chat:", error);
+        console.log("Failed to initialize chat:", error);
       }
     };
 
     if (currentUserId && selectedUserId) {
       initDirectChat();
     }
-  }, [currentUserId, selectedUserId, isConnected]);
+
+    // Clean up function: Stop connection and remove listeners
+    // return () => {
+    //   isMounted = false;
+    //   chatService
+    //     .stop()
+    //     .then(() => console.log("Connection stoppped and cleanup"));
+    // };
+  }, [currentUserId, selectedUserId]);
+  // }, [currentUserId, selectedUserId, isConnected]);
 
   const sendMessage = async () => {
-    if (message.trim() && roomId) {
-      const messageData = {
-        roomId: Number(roomId),
+    if (message.trim() && currentRoomId) {
+      const messageData: messageDTO = {
+        roomId: Number(currentRoomId),
         content: message,
-        userId: Number(currentUserId),
+        senderId: Number(currentUserId),
       };
 
       try {
         await axios.post(ROUTES.API.CHAT.MESSAGES.CREATE, messageData);
 
         // await chatService.sendMessage(roomId, message, Number(currentUserId));
-        await chatService.sendMessage2(messageData);
+        await chatService.sendMessage(messageData);
         setMessage("");
       } catch (error) {
         console.error("Failed to send message:", error);

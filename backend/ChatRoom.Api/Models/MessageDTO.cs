@@ -6,5 +6,5 @@ public class MessageDTO
 {
     public int RoomId { get; set; }
     public string Content { get; set; } = string.Empty;
-    public int UserId { get; set; }
+    public int SenderId { get; set; }
 }
